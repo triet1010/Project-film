@@ -30,9 +30,9 @@ header img{
     color: honeydew;
     font-size: 30px;
     text-decoration: none;
-    transition-duration: 0.5s;
+    transition-duration: 0.45s;
     transition-timing-function: ease-in-out;
-    transition-delay: 0.2s;
+    transition-delay: 0s;
     
 }
 .mainmenu ul li a:hover{
@@ -148,16 +148,17 @@ section{
     margin-left: 30px;
     margin-left: 30px;
     text-align: center;
-    transition-duration: 0.5s;
+    transition-duration: 0.45s;
     transition-timing-function: ease-in-out;
-    transition-delay: 0.2s;
+    transition-delay: 0s;
+    margin-bottom: 50px;
     
 }
 .card h1{
     margin: 0.67em 10px;
 }
 .card:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 
@@ -173,12 +174,12 @@ section{
     padding:10px;
     margin: 20px 60px;
     border-radius: 6px;
-    transition-duration: 0.5s;
+    transition-duration: 0.45s;
     transition-timing-function: ease-in-out;
-    transition-delay: 0.2s;
+    transition-delay: 0s;
 }
 .button:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .button a{
     color: white;
