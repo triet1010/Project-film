@@ -9,6 +9,7 @@ header{
     width: 100%;
     z-index: 999; 
     /* thêm z-index: 999; để hiện header, hearder bị đè bởi slider */
+    top: 0%;
 }
 header img{
     width: 140px;
@@ -196,6 +197,12 @@ footer{
 .box{
     display: flex;
 }
+.rec{
+    background-color: #000000c9;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
 .container {
     height: 100vh;
     display: flex;
@@ -203,7 +210,8 @@ footer{
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 80px;
+    background-color: whitesmoke;
 }
 .container label {
     color: rgb(11,58,100);
@@ -218,7 +226,7 @@ input[type="text" i] {
 input {
     -webkit-writing-mode: horizontal-tb !important;
     text-rendering: auto;
-    color: -internal-light-dark(black, white);
+    color: internal-light-dark(black, white);
     letter-spacing: normal;
     word-spacing: normal;
     text-transform: none;
@@ -237,4 +245,15 @@ input {
     border-style: inset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
+    height: 100%;
+}
+.container a{
+    text-decoration: none;
+    font-size: x-large;
+    color: teal;
+    background-color: burlywood;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
